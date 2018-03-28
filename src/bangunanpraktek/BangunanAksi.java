@@ -13,7 +13,7 @@ public class BangunanAksi {
     public static void main(String[] args) {
         Bangunan Hotel = new Bangunan();
     
-            Hotel.Jumlah_Kamar="50";
+        Hotel.Jumlah_Kamar="50";
         Hotel.Lebar_Bangunan="40";
         Hotel.Tinggi_Bangunan="60";
         Hotel.Warna_Bangunan="Krim";
@@ -33,7 +33,9 @@ public class BangunanAksi {
         KosKosan.Warna_Bangunan="Banyak";
         KosKosan.Fasilitas="Cuci_Motor";
         
-        Bangunan.cetakInfo();
+        Hotel.cetakInfo();
+        Apertemen.cetakInfo();
+        KosKosan.cetakInfo();
     }
  
 }
