@@ -11,7 +11,7 @@ package bangunanpraktek;
  */
 public class BangunanAksi {
     public static void main(String[] args) {
-        
-    }
+        Bangunan Hotel = new Bangunan();
+    
  
 }
