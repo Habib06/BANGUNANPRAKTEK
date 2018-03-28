@@ -32,6 +32,8 @@ public class BangunanAksi {
         KosKosan.Tinggi_Bangunan="6";
         KosKosan.Warna_Bangunan="Banyak";
         KosKosan.Fasilitas="Cuci_Motor";
+        
+        Bangunan.cetakInfo();
     }
  
 }
